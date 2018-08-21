@@ -77,3 +77,11 @@
 #knowledge-accordion p {
     margin-bottom: 0;
 }
+
+#knowledge-FeaturedArticles {
+    margin-top: -1.25em;
+}
+
+#knowledge-FeaturedArticles .card {
+    height: 24em;
+}
