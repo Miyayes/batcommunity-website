@@ -6,7 +6,7 @@
 
 #knowledge-mainContent {
     margin-top: .75em;
-    background: rgba(255,255,255,1);
+    background: none;
     width: 100%;
     box-shadow: 0 2px 8px 0 rgba(35,47,53,.09);
     border-radius: 0.25em;

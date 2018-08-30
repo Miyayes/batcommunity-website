@@ -1,4 +1,3 @@
-
 html {
     height: 100%;
     box-sizing: border-box;
@@ -246,7 +245,7 @@ a:hover {
 /* Cards */
 
 .top-card img:hover {
-    filter: brightness(60%);
+    filter: brightness(75%);
     transition: filter .15s ease-in-out;
     -moz-transition: filter .15s ease-in-out;
     -webkit-transition: filter .15s ease-in-out;
@@ -306,13 +305,14 @@ a:hover {
 } 
 
 
+/* 
 .cardRows .card:hover {
     transform: scale(1.0075);
 
     transition: transform .1s ease-in-out;
     -moz-transition: transform .25s ease-in-out;
     -webkit-transition: transform .25s ease-in-out;
-}
+} */
 
 i.fab {
     padding-right: .65em;
@@ -378,7 +378,7 @@ i.fab {
 
 .miniCards .card-title {
     color:white;
-    font-size: 1.85em;
+    font-size: 1.6em;
     margin-bottom: 8px;
     text-transform: lowercase;
 }
@@ -387,10 +387,11 @@ i.fab {
 .miniCards .card:hover {
     cursor: pointer;
     transform: scale(1.015);
+    box-shadow: 0 2px 8px 0 rgba(35,47,53,.5);
 
-    transition: transform .1s ease-in-out;
-    -moz-transition: transform .25s ease-in-out;
-    -webkit-transition: transform .25s ease-in-out;
+    transition: all .1s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
 }
 
 
