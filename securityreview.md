@@ -12,7 +12,7 @@
 
  ## Description
 
-BATCommunity.org will be a new hub for the BAT Community. It is a platform designed to facilitate community organization, meetups (e.g., with our regional leaders), the creation of community-related content, educational materials, and so on.
+BATCommunity.org will be a new hub for the BAT Community. It is a platform designed to facilitate community organization, meetups (e.g., with our regional leaders), the creation of community-related content, artwork, educational materials, and so on.
 
 *Persons of contact (BAT Community): Luke Mulks*
 
