@@ -9,6 +9,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- CSP -->
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self'; 
+    script-src 'self' 'unsafe-inline' http://192.168.1.11:8080 https://*.jquery.com https://*.bootstrapcdn.com 
+    https://cdn.syndication.twimg.com https://platform.twitter.com;
+    style-src 'self' 'unsafe-inline' http://192.168.1.11:8080 https://brave.moodyroosterdesign.com https://platform.twitter.com  https://*.bootstrapcdn.com
+    https://*.fontawesome.com https://ton.twimg.com https://cloud.typography.com;
+    img-src 'self' data: https://*.meetupstatic.com https://*.twimg.com https://*.twitter.com; 
+    child-src 'none';
+    frame-src https://*.vimeo.com https://*.twitter.com;
+    font-src data: https://*.fontawesome.com;
+    ">
+
     <title>BAT Community</title>
     <meta name="description" content="BAT Community meetups, blog, tutorials, forums and social media for
     Basic Attention Token. BAT is a new blockchain-based digital advertising platform from the inventor of JavaScript
@@ -174,7 +188,7 @@
                                 <div class="card-body" style="background: linear-gradient(
                                     rgba(32, 32, 32, 0.8), 
                                     rgba(0, 0, 0, 0.25)
-                                  ), url('https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350'); background-size: cover;">
+                                  ), url('images/minicards/news.jpg'); background-size: cover;">
                                     <div class="total"></div>
                                     <h5 class="card-title">News</h5>
                                     <p class="card-text">Keep up to date with news about BAT and current events in the BAT
@@ -203,7 +217,7 @@
                                 <div class="card-body" style="background: linear-gradient(
                                     rgba(32, 32, 32, 0.6), 
                                     rgba(0, 0, 0, 0.25)
-                                  ), url('https://images.pexels.com/photos/841228/pexels-photo-841228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350'); background-size: cover;">
+                                  ), url('images/minicards/forum.jpg'); background-size: cover;">
                                     <h5 class="card-title">Forum</h5>
                                     <p class="card-text">Discuss BAT, coordinate your next BAT meetup and make friends.
                                     </p>
@@ -228,9 +242,9 @@
 
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <a href="https://store.brave.com"><div class="card" style="background: linear-gradient(
-                                rgba(10, 10, 10, 0.55), 
+                                rgba(10, 10, 10, 0.65), 
                                 rgba(0, 0, 0, 0.0)
-                              ), url('https://cdn.shopify.com/s/files/1/0018/2989/6257/files/HOME_1440x640.jpg'); background-size: cover;">
+                              ), url('images/minicards/store.png'); background-size: cover;">
                                 <div class="card-body">
                                     <h5 class="card-title">Store</h5>
                                     <p class="card-text">Gear up and represent BAT & Brave with beautiful merch.
@@ -322,7 +336,7 @@
                         <div class="card">
                             <div class="top-card">
                                 <a href="https://basicattentiontoken.org/ama-with-brendan-eich/" target="_blank">
-                                    <img id="card1-image" src="http://cdn.facesofopensource.com/wp-content/uploads/2017/07/23193713/brendaneich25607.web_.jpg"
+                                    <img id="card1-image" src="images/brendaneich-facesofopensource.jpg"
                                         style="object-fit: cover; object-position: top;" width="100%" height="100%">
                                 </a>
                             </div>
