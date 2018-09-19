@@ -9,6 +9,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- CSP -->
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self'; 
+    script-src 'self' 'unsafe-inline' https://*.jquery.com https://*.bootstrapcdn.com 
+    https://cdn.syndication.twimg.com https://platform.twitter.com;
+    style-src 'self' 'unsafe-inline' https://brave.moodyroosterdesign.com https://platform.twitter.com  https://*.bootstrapcdn.com
+    https://*.fontawesome.com https://ton.twimg.com https://cloud.typography.com;
+    img-src 'self' data: https://*.meetupstatic.com https://*.twimg.com https://*.twitter.com; 
+    child-src 'none';
+    frame-src https://*.vimeo.com https://*.twitter.com;
+    font-src data: https://*.fontawesome.com;
+    ">
+
     <title>BAT Knowledge</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -56,8 +70,8 @@
                 <img src="images/batcommunitylogo-full.svg" class="navbar-brand" id="mainlogo2" href="#" height="35px">
             </a>
             <!-- <img src="images/batcommunitylogo-mobile2.svg" class="navbar-brand" id="mainlogo-mobile" href="#"> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -98,7 +112,8 @@
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
                                 <i class="fa fa-chevron-down" aria-hidden="true"></i> General Info
                             </button>
                         </h5>
@@ -107,8 +122,8 @@
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
                             <div class="list-group">
-                                <a href="https://batcommunity.mystagingwebsite.com/2018/07/introduction-to-basic-attention-token-bat/" class="list-group-item list-group-item-action flex-column align-items-start"
-                                    target="_blank">
+                                <a href="https://batcommunity.mystagingwebsite.com/2018/07/introduction-to-basic-attention-token-bat/"
+                                    class="list-group-item list-group-item-action flex-column align-items-start" target="_blank">
                                     <div class="d-flex w-100 justify-content-between">
                                         <p>
                                             Introduction to Basic Attention Token
@@ -116,7 +131,8 @@
                                         <small>INFO</small>
                                     </div>
 
-                                    <small>A complete overview of Basic Attention Token: what it is, what it solves and how.</small>
+                                    <small>A complete overview of Basic Attention Token: what it is, what it solves and
+                                        how.</small>
                                 </a>
 
 
@@ -129,7 +145,8 @@
                                         <small>INFO</small>
                                     </div>
 
-                                    <small>How to use Metamask with Brave to exchange for BAT tokens via decentralized atomic
+                                    <small>How to use Metamask with Brave to exchange for BAT tokens via decentralized
+                                        atomic
                                         swaps.
                                     </small>
                                 </a>
@@ -141,8 +158,8 @@
                     <div class="card">
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
                                     <i class="fa fa-chevron-down" aria-hidden="true"></i> BAT in Brave Rewards
                                 </button>
                             </h5>
@@ -151,7 +168,8 @@
                             <div class="card-body">
                                 <div class="list-group">
                                     <a href="https://batcommunity.mystagingwebsite.com/2018/07/how-to-verify-a-youtube-channel-with-brave-payments-verified-publisher/"
-                                        class="list-group-item list-group-item-action flex-column align-items-start" target="_blank">
+                                        class="list-group-item list-group-item-action flex-column align-items-start"
+                                        target="_blank">
                                         <div class="d-flex w-100 justify-content-between">
                                             <p>
                                                 How to Verify Your YouTube Channel
@@ -169,7 +187,8 @@
                                             <small>VIDEO</small>
                                         </div>
 
-                                        <small>Verify your website domain name using the .well-known upload method with Brave
+                                        <small>Verify your website domain name using the .well-known upload method with
+                                            Brave
                                             Payments.
                                         </small>
                                     </a>
@@ -183,7 +202,8 @@
                                             <small>VIDEO</small>
                                         </div>
 
-                                        <small>Verify your website domain name by updating your DNS TXT records for Brave
+                                        <small>Verify your website domain name by updating your DNS TXT records for
+                                            Brave
                                             Payments.
                                         </small>
                                     </a>
@@ -195,8 +215,8 @@
                     <div class="card">
                         <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     <i class="fa fa-chevron-down" aria-hidden="true"></i> Community
                                 </button>
                             </h5>
@@ -233,8 +253,8 @@
                         <div class="card">
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseTwo">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
                                         <i class="fa fa-chevron-down" aria-hidden="true"></i> Developers & Technical
                                     </button>
                                 </h5>
@@ -242,7 +262,8 @@
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <div class="list-group">
-                                        <a href="https://batcommunity.mystagingwebsite.com/2018/07/ethereum-erc20-and-basic-attention-token-bat/" class="list-group-item list-group-item-action flex-column align-items-start"
+                                        <a href="https://batcommunity.mystagingwebsite.com/2018/07/ethereum-erc20-and-basic-attention-token-bat/"
+                                            class="list-group-item list-group-item-action flex-column align-items-start"
                                             target="_blank">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p>
@@ -263,7 +284,8 @@
 
                                             <small>Going through the BAT smart contract, line by line.</small>
                                         </a>
-                                        <a href="https://status.brave.com/" class="list-group-item list-group-item-action flex-column align-items-start" target="_blank">
+                                        <a href="https://status.brave.com/" class="list-group-item list-group-item-action flex-column align-items-start"
+                                            target="_blank">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p>
 
@@ -272,7 +294,8 @@
                                                 <small>INFO</small>
                                             </div>
 
-                                            <small>See server uptime and status updates for BAT and Brave-related sites and
+                                            <small>See server uptime and status updates for BAT and Brave-related sites
+                                                and
                                                 services.
                                             </small>
                                         </a>
@@ -284,8 +307,8 @@
                         <div class="card">
                             <div class="card-header" id="headingFive">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                                        aria-controls="collapseFive">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <i class="fa fa-chevron-down" aria-hidden="true"></i> Interviews & AMAs
                                     </button>
                                 </h5>
@@ -293,22 +316,23 @@
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                 <div class="card-body">
 
-                                        <div class="list-group">
-                                                <a href="https://www.reddit.com/r/BATProject/comments/99epmy/im_brian_bondy_cofounder_and_cto_of_brave_ama/" class="list-group-item list-group-item-action flex-column align-items-start"
-                                                    target="_blank">
-                                                    <div class="d-flex w-100 justify-content-between">
-                                                        <p>
-                                                            Brian Bondy AMA (August 22, 2018)
-                                                        </p>
-                                                        <small>INTERVIEW</small>
-                                                    </div>
-        
-                                                    <small>Brian Bondy is the CTO and co-founder of Brave Software. 
-                                                    </small>
-                                                </a>
-        
+                                    <div class="list-group">
+                                        <a href="https://www.reddit.com/r/BATProject/comments/99epmy/im_brian_bondy_cofounder_and_cto_of_brave_ama/"
+                                            class="list-group-item list-group-item-action flex-column align-items-start"
+                                            target="_blank">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <p>
+                                                    Brian Bondy AMA (August 22, 2018)
+                                                </p>
+                                                <small>INTERVIEW</small>
                                             </div>
-        
+
+                                            <small>Brian Bondy is the CTO and co-founder of Brave Software.
+                                            </small>
+                                        </a>
+
+                                    </div>
+
 
                                     <div class="list-group">
                                         <a href="https://basicattentiontoken.org/ama-with-brendan-eich/" class="list-group-item list-group-item-action flex-column align-items-start"
@@ -326,7 +350,8 @@
                                     </div>
 
                                     <div class="list-group">
-                                        <a href="https://batcommunity.mystagingwebsite.com/2018/07/live-ama-interview-with-brendan-eich-december-20-2018/" class="list-group-item list-group-item-action flex-column align-items-start"
+                                        <a href="https://batcommunity.mystagingwebsite.com/2018/07/live-ama-interview-with-brendan-eich-december-20-2018/"
+                                            class="list-group-item list-group-item-action flex-column align-items-start"
                                             target="_blank">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p>
@@ -335,7 +360,8 @@
                                                 <small>INTERVIEW</small>
                                             </div>
 
-                                            <small>Transcript of RocketChat AMA with Brendan Eich (CEO) on December 20th,
+                                            <small>Transcript of RocketChat AMA with Brendan Eich (CEO) on December
+                                                20th,
                                                 2017.
                                             </small>
                                         </a>
@@ -365,15 +391,17 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="top-card">
-                            <a href="https://www.reddit.com/r/BATProject/comments/99epmy/im_brian_bondy_cofounder_and_cto_of_brave_ama/" target="_blank">
-                                <img id="card1-image" src="https://www.brave.com/images/brianbondy.jpg"
-                                    style="object-fit: cover; object-position: center;" width="100%" height="100%">
+                            <a href="https://www.reddit.com/r/BATProject/comments/99epmy/im_brian_bondy_cofounder_and_cto_of_brave_ama/"
+                                target="_blank">
+                                <img id="card1-image" src="https://www.brave.com/images/brianbondy.jpg" style="object-fit: cover; object-position: center;"
+                                    width="100%" height="100%">
                             </a>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">New AMA with Brian Bondy</h5>
                             <p class="card-text">
-                                    Brian R. Bondy is the co-founder, CTO and lead developer at Brave Software. Other notable projects he's worked on include Khan Academy, Mozilla and Evernote.
+                                Brian R. Bondy is the co-founder, CTO and lead developer at Brave Software. Other
+                                notable projects he's worked on include Khan Academy, Mozilla and Evernote.
                             </p>
                         </div>
                     </div>
@@ -390,7 +418,8 @@
                         <div class="card-body">
                             <h5 class="card-title">New AMA with Brendan Eich</h5>
                             <p class="card-text">
-                                Brendan is the CEO of BAT/Brave, inventor of JavaScript and co-founded Mozilla & Firefox. See his new AMA from Aug. 16, 2018
+                                Brendan is the CEO of BAT/Brave, inventor of JavaScript and co-founded Mozilla &
+                                Firefox. See his new AMA from Aug. 16, 2018
                                 where he drops tons of insight on Basic Attention Token.
                             </p>
                         </div>
@@ -408,7 +437,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Introduction Guide to BAT</h5>
                             <p class="card-text">
-                                    This introductory guide is designed to help you gain a big picture understanding BAT: what it is, what it solves, and how.          
+                                This introductory guide is designed to help you gain a big picture understanding BAT:
+                                what it is, what it solves, and how.
                             </p>
                         </div>
                     </div>
