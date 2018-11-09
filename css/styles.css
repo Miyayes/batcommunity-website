@@ -10,11 +10,12 @@ html {
 }
 
 a {
-    color: lightgray;
+    color: gray;
+    cursor: pointer;
 }
 
 a:hover {
-    color: white;
+    color: white !important;
 }
 
 body {
@@ -91,7 +92,8 @@ footer {
     bottom: 0;
     position: absolute;
     z-index: 100;
-    padding-bottom: 1.15em;
+    padding-bottom: 2em;
+    width: 100%;
 }
 
 .footer-bar {
@@ -106,25 +108,15 @@ i:hover.hoverSocial {
     cursor: pointer !important;
 }
 
-.socials {
-    padding-top: .8em;
-    height: 4em;
-    margin-left: -4px;
-    cursor: pointer;
-}
-
-.socials a {
-    color: #7b7b7b;
-    cursor: pointer !important;
-}
-
-footer ul {
-    list-style-type: none;
+#footer-privacypolicy {
     text-align: right;
+    float: right;
+    vertical-align: middle;
+
 }
 
-footer ul li {
-    padding-top: .45em;
+#socials a {
+    color: #7b7b7b;
 }
 
 /* Navigation Bar */
@@ -266,7 +258,7 @@ a:hover {
 }
 
 .card-title {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #505050;
     line-height: 1.5em;
 }
@@ -295,7 +287,8 @@ a:hover {
 }
 
 .card {
-    box-shadow: 0 2px 8px 0 rgba(35,47,53,.09);
+    /* box-shadow: 0 2px 8px 0 rgba(35,47,53,.09); */
+    box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.12);
 }
 
 .cardRows .card {
@@ -394,6 +387,10 @@ i.fab {
     -webkit-transition: all .25s ease-in-out;
 }
 
+#footer {
+    padding-top: 1em;
+}
+
 
 /* Media Queries */ 
 
@@ -433,6 +430,13 @@ i.fab {
     .carousel-caption {
         top: 50%;
     }
+}
+
+@media only screen and (max-width: 512px) {
+    #footer-privacypolicy {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {

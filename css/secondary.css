@@ -2,6 +2,7 @@
     height: 100%;
     background-image: url('../images/stars3.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #knowledge-mainContent {
@@ -84,4 +85,16 @@
 
 #knowledge-FeaturedArticles .card {
     height: 24em;
+}
+
+#privacyPolicy {
+    padding: 1em;
+    color: #404040;
+}
+
+table, th, td {
+    padding: 11px;
+    text-align: center;
+    border: 1px solid #dedede;
+    font-size: .9em;
 }
