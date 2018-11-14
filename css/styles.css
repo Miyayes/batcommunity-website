@@ -10,11 +10,8 @@ html {
 }
 
 a {
-    color: lightgray;
-}
-
-a:hover {
-    color: white;
+    color: gray;
+    cursor: pointer;
 }
 
 body {
@@ -28,7 +25,9 @@ body {
 
 .background {  
     width: 100%;
-    height: 37em;
+    /* height: 37em; */
+    height: 100vh;
+    /* background-attachment: fixed; */
     position: absolute;
     background-size: cover;
     background-position: bottom;
@@ -59,20 +58,32 @@ body {
 
 #mainlogo2:hover {
     opacity: 0.65;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
 }
 
 /* Carousel */
 
+#carouselExampleIndicators {
+    cursor: pointer !important;
+    box-shadow: 0px 12px 18px -6px rgba(28,28,28,0.2);
+}
+
 .carousel-inner {
-    max-height: 420px;
     border-radius: 0.25em;
 }
 
 .carousel-item {
     cursor: pointer !important;
+}
+
+.carousel-item:hover {
+    cursor: pointer !important;
+    filter: brightness(92%);
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
 }
 
 .carousel-caption {
@@ -91,7 +102,8 @@ footer {
     bottom: 0;
     position: absolute;
     z-index: 100;
-    padding-bottom: 1.15em;
+    padding-bottom: 2em;
+    width: 100%;
 }
 
 .footer-bar {
@@ -106,25 +118,15 @@ i:hover.hoverSocial {
     cursor: pointer !important;
 }
 
-.socials {
-    padding-top: .8em;
-    height: 4em;
-    margin-left: -4px;
-    cursor: pointer;
-}
-
-.socials a {
-    color: #7b7b7b;
-    cursor: pointer !important;
-}
-
-footer ul {
-    list-style-type: none;
+#footer-privacypolicy {
     text-align: right;
+    float: right;
+    vertical-align: middle;
+
 }
 
-footer ul li {
-    padding-top: .45em;
+#socials a {
+    color: #7b7b7b;
 }
 
 /* Navigation Bar */
@@ -205,6 +207,7 @@ nav .collapsing {
 a:hover {
     text-decoration: none;
     cursor: pointer !important;
+    color: gray;
 }
 
 .navbar {
@@ -245,7 +248,8 @@ a:hover {
 /* Cards */
 
 .top-card img:hover {
-    filter: brightness(75%);
+    cursor: pointer !important;
+    filter: brightness(85%);
     transition: filter .15s ease-in-out;
     -moz-transition: filter .15s ease-in-out;
     -webkit-transition: filter .15s ease-in-out;
@@ -266,7 +270,7 @@ a:hover {
 }
 
 .card-title {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #505050;
     line-height: 1.5em;
 }
@@ -295,7 +299,8 @@ a:hover {
 }
 
 .card {
-    box-shadow: 0 2px 8px 0 rgba(35,47,53,.09);
+    /* box-shadow: 0 2px 8px 0 rgba(35,47,53,.09); */
+    box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.12);
 }
 
 .cardRows .card {
@@ -394,6 +399,10 @@ i.fab {
     -webkit-transition: all .25s ease-in-out;
 }
 
+#footer {
+    padding-top: 1em;
+}
+
 
 /* Media Queries */ 
 
@@ -435,6 +444,13 @@ i.fab {
     }
 }
 
+@media only screen and (max-width: 512px) {
+    #footer-privacypolicy {
+        width: 100%;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
     
     /* Resize Captions on Carousel */
@@ -452,6 +468,10 @@ i.fab {
 @media only screen and (max-width: 375px) {
     
     /* Resize Captions on Carousel */
+    #carouselExampleIndicators {
+        display: none;
+    }
+
     .carousel-caption {
         top: 32%;
         font-size: 60%;
