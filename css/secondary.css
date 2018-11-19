@@ -8,7 +8,6 @@
 #knowledge-mainContent {
     margin-top: .75em;
     background: none;
-    width: 100%;
     box-shadow: 0 2px 8px 0 rgba(35,47,53,.09);
     border-radius: 0.25em;
     padding: 0;
@@ -90,6 +89,12 @@
 #privacyPolicy {
     padding: 3em;
     color: #404040;
+}
+
+@media only screen and (max-width: 580px) {
+    #privacyPolicy {
+        padding: 1em;
+    }
 }
 
 table, th, td {

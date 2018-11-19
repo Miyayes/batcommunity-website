@@ -1,6 +1,7 @@
 html {
     height: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 *,
@@ -21,6 +22,7 @@ body {
     position: relative;
     min-height: 100%;
     padding-bottom: 6rem;
+    width: 100vw;
 }
 
 .background {  
@@ -54,13 +56,12 @@ body {
 
 .wrappingcontainer {
     margin-top: -1em;
+    margin-bottom: 1em;
 }
 
 #mainlogo2:hover {
-    opacity: 0.65;
-    transition: opacity .15s ease-in-out;
-    -moz-transition: opacity .15s ease-in-out;
-    -webkit-transition: opacity .15s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer !important;
 }
 
 /* Carousel */
@@ -93,17 +94,33 @@ body {
     text-shadow: 0px 0px 2px rgba(0,0,0,.3);
 }
 
+#privacypolicy  {
+    margin-top: .9em;
+    color: lightgray;
+}
+
+
+#privacypolicy a {
+    font-size: .8em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#privacypolicy a:hover {
+    color: purple;
+}
+
+
+
+
 /* Footer */
 
 footer {
     font-size: 0.85em;
-    color: #6f6f6f;
-    margin-top: 3.75em;
     bottom: 0;
     position: absolute;
     z-index: 100;
     padding-bottom: 2em;
-    width: 100%;
 }
 
 .footer-bar {
@@ -126,7 +143,8 @@ i:hover.hoverSocial {
 }
 
 #socials a {
-    color: #7b7b7b;
+    color: #888888;
+    margin-top: 1em;
 }
 
 /* Navigation Bar */
@@ -281,10 +299,6 @@ a:hover {
         
 }
 
-.cardRows {
-    margin-top: -5px;
-}
-
 .card-description-bar {
     width: 100%;
     height: 3.25em;
@@ -300,7 +314,7 @@ a:hover {
 
 .card {
     /* box-shadow: 0 2px 8px 0 rgba(35,47,53,.09); */
-    box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.12);
+    box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
 }
 
 .cardRows .card {
@@ -399,11 +413,6 @@ i.fab {
     -webkit-transition: all .25s ease-in-out;
 }
 
-#footer {
-    padding-top: 1em;
-}
-
-
 /* Media Queries */ 
 
 @media only screen and (max-width: 992px) {
@@ -411,16 +420,6 @@ i.fab {
     .background {
         height: 100%;
         position: fixed;
-    }
-    
-    /* Resize Captions on Carousel */
-    .carousel-caption {
-        top: 55%;
-        font-size: 65%;
-    }
-
-    .carousel-caption h5 {
-        font-size: 1.5em;
     }
     
 }
@@ -435,50 +434,4 @@ i.fab {
     .cardRows .card {
         height: 28em;
     }
-}
-
-
-@media only screen and (max-width: 768px) {
-    .carousel-caption {
-        top: 50%;
-    }
-}
-
-@media only screen and (max-width: 512px) {
-    #footer-privacypolicy {
-        width: 100%;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
-    
-    /* Resize Captions on Carousel */
-    .carousel-caption {
-        top: 45%;
-        font-size: 60%;
-    }
-
-    .carousel-caption h5 {
-        font-size: 135%;
-    }
-
-}
-
-@media only screen and (max-width: 375px) {
-    
-    /* Resize Captions on Carousel */
-    #carouselExampleIndicators {
-        display: none;
-    }
-
-    .carousel-caption {
-        top: 32%;
-        font-size: 60%;
-    }
-
-    .carousel-caption h5 {
-        font-size: 135%;
-    }
-
 }
