@@ -1,0 +1,22 @@
+#backgroundInnerPage {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: rgb(130, 130, 130);
+    position: absolute;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.98;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url('../images/stars4.jpg');
+}
+
+#carouselExampleIndicators {
+    margin-bottom: 1.75em;
+}
+
+
+.row iframe {
+    margin-top: 1.5em;
+}
