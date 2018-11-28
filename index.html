@@ -68,6 +68,27 @@
     <meta name="twitter:image" content="https://www.brandmaiden.com/batcommunity-website/images/thumbnail-card.jpg">
     <meta name="twitter:card" content="summary_large_image">
 
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.batcommunity.org"]);
+        _paq.push(["setDomains", ["*.batcommunity.org"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//analytics.brave.com/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '8']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//analytics.brave.com/piwik.php?idsite=8&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Matomo Code -->
 
 </head>
 
@@ -464,10 +485,6 @@
 
 
         </div>
-
-    </div>
-
-    <div class="footer-bar">
 
     </div>
 

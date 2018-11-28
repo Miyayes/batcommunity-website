@@ -1,12 +1,12 @@
 #backgroundInnerPage {
     height: 100vh;
-    background-image: url('../images/stars3.jpg');
+    background-image: url('../images/stars4.jpg');
     background-size: cover;
     /* background-attachment: fixed; */
 }
 
 #knowledge-mainContent {
-    margin-top: .75em;
+    margin-top: .3em;
     background: none;
     box-shadow: 0 2px 8px 0 rgba(35,47,53,.09);
     border-radius: 0.25em;
@@ -21,6 +21,7 @@
 #knowledge-accordion .card {
     /* box-shadow: 0 0px 6px 0px rgba(35,47,53,.09); */
     border: 0px;
+    border-radius: 6px;
 }
 
 #knowledge-accordion .card-body {
@@ -39,11 +40,14 @@
 
 #knowledge-accordion .card-header {
     color: white;
-    background-color: #efefef;
     padding: .5em;
     border-bottom-color: #dedede !important;
     opacity: .65;
 
+}
+
+#knowledge-accordion .card {
+    box-shadow: 0 2px 8px 0 rgba(35,47,53,.02);
 }
 
 #knowledge-accordion .card-header:hover {

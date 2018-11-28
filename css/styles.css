@@ -33,7 +33,7 @@ body {
     position: absolute;
     background-size: cover;
     background-position: bottom;
-    opacity: 0.90;
+    opacity: 0.93;
     z-index: -1;
     background-repeat: no-repeat;
     background-image: url('../images/stars4.jpg'); /* Default BG with noJS */
