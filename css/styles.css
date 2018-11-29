@@ -33,7 +33,7 @@ body {
     position: absolute;
     background-size: cover;
     background-position: bottom;
-    opacity: 0.93;
+    opacity: 0.9;
     z-index: -1;
     background-repeat: no-repeat;
     background-image: url('../images/stars4.jpg'); /* Default BG with noJS */
@@ -143,7 +143,7 @@ i:hover.hoverSocial {
 }
 
 #socials a {
-    color: #888888;
+    color: #676767;
     margin-top: 1em;
 }
 
@@ -369,7 +369,7 @@ i.fab {
     padding-left: .45em;
 } */
 
-/* Launch Cards (cards that explain navigation) */
+/* Launch Cards (cards that explain navigation) 
 
 .miniCards .card {
     height: 10em;
@@ -411,7 +411,7 @@ i.fab {
     transition: all .1s ease-in-out;
     -moz-transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
-}
+} */
 
 /* Media Queries */ 
 

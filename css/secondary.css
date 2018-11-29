@@ -7,6 +7,7 @@
 
 #knowledge-mainContent {
     margin-top: .3em;
+    margin-bottom: 1.5em;
     background: none;
     box-shadow: 0 2px 8px 0 rgba(35,47,53,.09);
     border-radius: 0.25em;
@@ -87,7 +88,7 @@
 }
 
 #knowledge-FeaturedArticles .card {
-    height: 24em;
+    height: 16em;
 }
 
 #privacyPolicy {
