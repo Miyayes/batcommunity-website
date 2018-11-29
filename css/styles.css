@@ -27,13 +27,11 @@ body {
 
 .background {  
     width: 100%;
-    /* height: 37em; */
     height: 100vh;
-    /* background-attachment: fixed; */
     position: absolute;
     background-size: cover;
     background-position: bottom;
-    opacity: 0.9;
+    opacity: 0.93;
     z-index: -1;
     background-repeat: no-repeat;
     background-image: url('../images/stars4.jpg'); /* Default BG with noJS */
@@ -50,7 +48,7 @@ body {
 
 .pageTitle {
     color: white;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     margin-top: 2em;
 }
 

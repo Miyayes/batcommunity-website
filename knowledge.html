@@ -46,6 +46,28 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.batcommunity.org"]);
+        _paq.push(["setDomains", ["*.batcommunity.org"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//analytics.brave.com/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '8']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//analytics.brave.com/piwik.php?idsite=8&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Matomo Code -->
+
 
 </head>
 
@@ -111,7 +133,7 @@
         <section class="cardRows" id="knowledge-FeaturedArticles">
 
             <div class="row">
-    
+
 
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="card">
@@ -122,7 +144,7 @@
                             </a>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">AMA with Brendan Eich (CEO)</h5>
+                            <p>AMA with Brendan Eich (CEO)</p>
                         </div>
                     </div>
                 </div>
@@ -136,7 +158,7 @@
                             </a>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">AMA with Yan Zhu (CISO)</h5>
+                            <p>AMA with Yan Zhu (CISO)</p>
                         </div>
                     </div>
                 </div>
@@ -144,14 +166,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="top-card">
-                            <a href="https://brave.com/ama-with-brian-brown/"
-                                target="_blank">
+                            <a href="https://brave.com/ama-with-brian-brown/" target="_blank">
                                 <img id="card1-image" src="images/brianbrown.jpg" style="object-fit: cover; object-position: center;"
                                     width="100%" height="100%">
                             </a>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">AMA with Brian Brown (CBO)</h5>
+                            <p>AMA with Brian Brown (CBO)</p>
                         </div>
                     </div>
                 </div>
@@ -185,7 +206,7 @@
                                         <p>
                                             Introduction to Basic Attention Token
                                         </p>
-                                        
+
                                     </div>
 
                                     <small>A complete overview of Basic Attention Token: what it is, what it solves and
@@ -199,7 +220,7 @@
                                         <p>
                                             Exchange for BAT with no fees using AirSwap, Brave and Metamask
                                         </p>
-                                        
+
                                     </div>
 
                                     <small>How to use Metamask with Brave to exchange for BAT tokens via decentralized
@@ -231,7 +252,7 @@
                                             <p>
                                                 How to Verify Your YouTube Channel
                                             </p>
-                                            
+
                                         </div>
 
                                         <small>Setup your YouTube channel with Brave Payments.</small>
@@ -241,7 +262,7 @@
                                             <p>
                                                 How to Verify Your Website Domain Name (Upload Method)
                                             </p>
-                                            
+
                                         </div>
 
                                         <small>Verify your website domain name using the .well-known upload method with
@@ -256,7 +277,7 @@
                                                 </i>
                                                 How to Verify Your Website Domain Name (DNS TXT Record Method)
                                             </p>
-                                            
+
                                         </div>
 
                                         <small>Verify your website domain name by updating your DNS TXT records for
@@ -286,7 +307,7 @@
                                             <p>
                                                 BAT Community Guidelines
                                             </p>
-                                            
+
                                         </div>
 
                                         <small>Rules for participating in the BAT Community.</small>
@@ -297,7 +318,7 @@
                                             <p>
                                                 BAT Regional Leader Roles and Responsibilities
                                             </p>
-                                            
+
                                         </div>
 
                                         <small>Learn about what you will be doing as a BAT Regional Leader volunteer!</small>
@@ -326,7 +347,7 @@
                                                 <p>
                                                     Ethereum and Basic Attention Token (BAT)
                                                 </p>
-                                                
+
                                             </div>
 
                                             <small>BAT as an Ethereum-based ERC20 utility token and smart contract.</small>
@@ -336,7 +357,7 @@
                                                 <p>
                                                     Understanding the BAT Smart Contract
                                                 </p>
-                                                
+
                                             </div>
 
                                             <small>Going through the BAT smart contract, line by line.</small>
@@ -348,7 +369,7 @@
 
                                                     BAT & Brave Server Status
                                                 </p>
-                                                
+
                                             </div>
 
                                             <small>See server uptime and status updates for BAT and Brave-related sites
@@ -381,7 +402,7 @@
                                                 <p>
                                                     Brian Bondy AMA (August 22, 2018)
                                                 </p>
-                                                
+
                                             </div>
 
                                             <small>Brian Bondy is the CTO and co-founder of Brave Software.
@@ -398,7 +419,7 @@
                                                 <p>
                                                     Brendan Eich AMA (August 16, 2018)
                                                 </p>
-                                                
+
                                             </div>
 
                                             <small>Reddit AMA with Brendan Eich (CEO) on August 16th, 2018.</small>
@@ -414,7 +435,7 @@
                                                 <p>
                                                     Brendan Eich AMA (December 20, 2017)
                                                 </p>
-                                                
+
                                             </div>
 
                                             <small>Transcript of RocketChat AMA with Brendan Eich (CEO) on December

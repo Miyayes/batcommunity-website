@@ -60,7 +60,7 @@
 }
 
 #knowledge-accordion .card-header button {
-    color: #737373;
+    color: #4b4b4b;
     height: 100%;
     width: 100%;
     text-align: left;
@@ -89,6 +89,11 @@
 
 #knowledge-FeaturedArticles .card {
     height: 16em;
+}
+
+#knowledge-FeaturedArticles .card-body {
+    padding: 1em;
+    padding-bottom: .2em;
 }
 
 #privacyPolicy {

@@ -68,6 +68,28 @@
     <meta name="twitter:image" content="https://www.brandmaiden.com/batcommunity-website/images/thumbnail-card.jpg">
     <meta name="twitter:card" content="summary_large_image">
 
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.batcommunity.org"]);
+        _paq.push(["setDomains", ["*.batcommunity.org"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//analytics.brave.com/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '8']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//analytics.brave.com/piwik.php?idsite=8&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Matomo Code -->
+
 
 </head>
 
@@ -76,7 +98,7 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div id="backgroundInnerPage"></div>
+    <div class="background" id="feed-background"></div>
 
     <div class="container">
 
@@ -121,8 +143,8 @@
         </nav>
 
         <div class="pageTitle">
-                <h3>Team Feed</h3>
-                <p>Featured videos from the BAT team.</p>
+            <h3>Team Feed</h3>
+            <p>Featured videos from the BAT team.</p>
         </div>
 
         <div class="wrappingcontainer">
@@ -137,13 +159,13 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                        <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/392afJrg6Hs"
+                        <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/OV3c58DqFdk"
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                        <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/r5by2iIMGOs"
+                        <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/392afJrg6Hs"
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
@@ -151,8 +173,8 @@
                 </div>
 
                 <div class="pageTitle">
-                        <h3>Verified Publishers Feed</h3>
-                        <p>Featured videos from Brave verified creators who accept BAT contributions.</p>
+                    <h3>Verified Publishers Feed</h3>
+                    <p>Featured videos from Brave verified creators who accept BAT contributions.</p>
                 </div>
 
 
@@ -197,23 +219,23 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/2zJBkIcOfaA"
-                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-    
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/5OkoJ_TWklA"
-                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/zEQgIBhcUOY"
-                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
+                        <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/2zJBkIcOfaA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/5OkoJ_TWklA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <iframe height="240px" width="100%" height="" src="https://www.youtube.com/embed/zEQgIBhcUOY"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </section>
 
