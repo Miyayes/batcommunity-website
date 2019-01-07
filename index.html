@@ -15,12 +15,12 @@
     default-src 'self'; 
     script-src 'self' 'unsafe-inline' https://*.brave.com https://*.jquery.com https://*.bootstrapcdn.com 
     https://cdn.syndication.twimg.com https://platform.twitter.com;
-    style-src 'self' 'unsafe-inline' https://brave.moodyroosterdesign.com https://platform.twitter.com  https://*.bootstrapcdn.com
-    https://*.fontawesome.com https://ton.twimg.com https://cloud.typography.com;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://platform.twitter.com  https://*.bootstrapcdn.com
+    https://*.fontawesome.com https://ton.twimg.com;
     img-src 'self' data: https://brave.com https://*.brave.com https://*.meetupstatic.com https://*.twimg.com https://*.twitter.com; 
     child-src 'none';
     frame-src https://*.vimeo.com https://*.twitter.com;
-    font-src data: https://*.fontawesome.com;
+    font-src data: https://fonts.gstatic.com https://*.fontawesome.com;
     ">
 
     <title>BAT Community</title>
@@ -38,11 +38,10 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://use.typekit.net/erg0hxm.css">
+    <!-- Fonts v2 -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7197656/6778392/css/fonts.css" />
+    crossorigin="anonymous">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -112,7 +111,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://batcommunity.mystagingwebsite.com/category/news/" target="_blank">News
+                        <a class="nav-link" href="https://blog.batcommunity.org/category/news/" target="_blank">News
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -120,7 +119,7 @@
                         <a class="nav-link" href="knowledge.html">Knowledge</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="feed.html">videofeed</a>
+                        <a class="nav-link" href="feed.html">video feed</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://forum.batcommunity.org/" target="_blank">Forum</a>
@@ -132,8 +131,8 @@
                         <a class="nav-link" href="https://store.brave.com" target="_blank">Store</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://brave.com" target="_blank">
-                            <img id="navLion" src="images/bravelion-logo.svg" height="17px" style="margin-right: 8px; padding-bottom: 2px;">Get
+                        <a class="nav-link" id="getBrave" href="https://brave.com" target="_blank">
+                            <img id="navLion" src="images/bravelion-logo.svg" height="24px" style="margin-right: 8px; padding-bottom: 2px;">Get
                             Brave
                         </a>
                     </li>
@@ -204,7 +203,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="top-card">
-                                <a href="https://meetup.com/pro/batcommunity" target="_blank">
+                                <a href="https://forum.batcommunity.org/t/interested-becoming-a-regional-leader-heres-how/36" target="_blank">
                                     <img id="card1-image" src="images/bat-regionalleader.jpg" style="object-fit: cover;"
                                         width="100%" height="100%">
                                 </a>
