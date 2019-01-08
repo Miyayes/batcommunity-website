@@ -186,6 +186,14 @@ nav {
     display: none;
 }
 
+#navLion-black {
+    display: none; 
+}
+
+.navbar-collapse.collapse.show #navLion-black { 
+    display: inline-block; 
+}
+
 .navbar-collapse.collapse.show a.nav-link {
     color: #6f6f6f !important;
 }
