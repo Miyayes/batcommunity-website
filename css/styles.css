@@ -96,13 +96,12 @@ body {
 
 #privacypolicy  {
     margin-top: .9em;
-    color: lightgray;
 }
 
 
 #privacypolicy a {
     font-size: 1em;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 #privacypolicy a:hover {

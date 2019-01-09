@@ -9,14 +9,14 @@
     margin-top: .3em;
     margin-bottom: 1.5em;
     background: none;
-    box-shadow: 0 2px 8px 0 rgba(35,47,53,.09);
     border-radius: 0.25em;
     padding: 0;
 
 }
 
-#knowledge-jumbotron {
-    margin: 0;
+#knowledge-accordion {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
 
 #knowledge-accordion .card {
